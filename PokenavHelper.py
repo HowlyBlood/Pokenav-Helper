@@ -13,7 +13,7 @@ from pick import pick
 Reward = "Reward"
 stop = "Pokestop name"
 Quest = "Action description"
-jsonfile = "F:\Documents\Quest Manager\quetes.json"
+jsonfile = "Tasks.json"
 rwd_Label = ["REWARD 1", "REWARD 2", "REWARD 3", "REWARD 4", "REWARD 5", "REWARD 6", "REWARD 7"]
 types = []
 quests = []
@@ -22,7 +22,7 @@ Type = ""
 Quest = ""
 typenum = 0
 # -----------------------------
-# JSON READING WiP
+# JSON READING FUNCTIONS
 # -----------------------------
 
 
@@ -59,6 +59,8 @@ def read_rewards_from_json(file, Type, Quest):
 # -----------------------------
 # USER INPUT WiP
 # -----------------------------
+
+# WiP : Ligne à remplacer par une lecture d'un autre fichier json
 stop = input("Quel est le nom du pokéstop ? \n")    
 
 title = "Choisi le type de quête dans la liste ci-dessous"
